@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+	<h1>Registration form</h1>
+	<form method="post" onsubmit="return(valid());" name="form1">
+		<label>Email:</label>
+		<input type="text" name="email" id="em"><br>
+		<label>Password:</label>
+		<input type="password" name="password" id="pass"><br>
+		<label>Confirm Password:</label>
+		<input type="password" name="confirm_pass" id="confirm_pass"><br>
+		<label>First Name:</label>
+		<input type="text" name="firstname" id="fname"><br>
+		<label>Last Name:</label>
+		<input type="text" name="lastname" id="lname"><br>
+		<label>Zip Code</label>
+		<input type="text" name="zipcode" id="zip"><br>
+		<input type="submit" name="submit" id="btn"><br><br>
+	</form>
+	<p id="p"></p>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
